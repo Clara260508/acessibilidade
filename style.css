@@ -87,7 +87,6 @@ section {
     justify-content: center;
     position: relative;
     z-index: 1;
-    /* Garante que o conteúdo fica acima das imagens do background */
 }
 
 
@@ -104,7 +103,7 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background: url(img/11477611446_e1361fdcd4_o.jpg) bottom right no-repeat;
     background-size: 180px 180px;
 }
 
@@ -112,18 +111,13 @@ h2 {
     background-image: url('img/4965007.jpg');
     background-size: cover;
     padding: 4rem 0;
-    /* Espaçamento interno para a seção de contato */
-
 }
 
 .formulario {
     background-color: #f5f2f2;
     padding: 2rem;
-    /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
-    /* Borda arredondada para o formulário */
-    box-shadow: 0 0 10px rgba(26, 21, 21, 0.1);
-    /* Sombra suave para destacar o formulário */
+     box-shadow: 0 0 10px rgba(26, 21, 21, 0.1);
     font-weight: bold;
 }
 
