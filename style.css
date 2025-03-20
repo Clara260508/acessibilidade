@@ -29,19 +29,16 @@ section {
 }
 
 .inicio-fundo {
-    /* aula 3 */
-    background-image: url('img/4965007.jpg');
-    /* Substitua pelo caminho da sua imagem */
+    background-image: url('img/JeMperfil.jpg');
     background-size: cover;
     background-position: right;
-    border-radius: 80px;
+    border-radius: 100px;
     width: 100%;
     height: 606px;
-    padding: 40px;
+    padding: 50px;
     margin: 0 auto;
 }
 
-/* posicionamento para a imagem à direita */
 .img-inicio {
     position: absolute;
     right: 0;
@@ -49,7 +46,6 @@ section {
     width: 45rem;
     height: auto;
 }
-
 
 .esquerda-conteudo {
     display: flex;
@@ -79,8 +75,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
+    background: url('img/7425485580_b6531297f1_c.jpg') top right no-repeat,
+        url('img/11477611446_04ac4b5675_z.jpg') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
