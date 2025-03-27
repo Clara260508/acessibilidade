@@ -36,7 +36,7 @@ section {
     width: 100%;
     height: 606px;
     padding: 40px;
-    margin: 0 auto;
+    margin: 10px; auto;
 }
 
 .img-inicio {
@@ -57,7 +57,7 @@ section {
 
 
 .botao-inicio {
-    background-color: var(--laranja-claro);
+    background-color: var(--amarelo-claro);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -98,7 +98,7 @@ h2 {
 }
 
 #galeria {
-    background-color: #d1c7c7;
+    background-color: #ecd66a;
 
 }
 
@@ -117,18 +117,18 @@ h2 {
     background-color: #fad797;
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(123, 118, 118, 0.246);
+    box-shadow: 0 0 10px rgba(246, 173, 26, 0.693);
     font-weight: bold;
 }
 
 .formulario button {
-    background-color: #f3fb08;
+    background-color: rgba(246, 173, 26, 0.693);
     border: none;
     font-weight: bold;
 }
 
 .form-control {
-    background-color: #F1EDEF;
+    background-color: #f1d756;
 }
 .menu-acessibilidade{
     position: fixed;
