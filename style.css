@@ -3,18 +3,17 @@
 
 :root {
     --laranja-claro: #f6bd03;
-    --alto-contraste-fundo: #000000c9;
+    --alto-contraste-fundo: #21211db9;
     --alto-contraste-texto: #ffffff36;
     --alto-contraste-link: #f6d935;
 }
-
 body {
     font-size: 1rem;
     font-family: 'Montserrat';
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #f4be0ef3;
 }
 
 
@@ -78,7 +77,7 @@ section {
     margin-bottom: 3rem;
     background: url('img/flor.png') top right no-repeat,
         url('img/flor-esquerda.png') bottom left no-repeat;
-    background-size: 150px 150px;
+    background-size: 190px 190px;
 }
 
 #Jorge&Mateus.container {
@@ -94,17 +93,17 @@ h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
     font-style: normal;
-    color: var(--alto-contraste-link);
+    color: var(--laranja-claro);
 }
 
 #galeria {
-    background-color: #ecd66a;
+    background-color: #f1d131;
 
 }
 
 .fundo-galeria {
     background: url('img/flor-bottom-direita.png') bottom right no-repeat;
-    background-size: 180px 180px;
+    background-size: 190px 190px;
 }
 
 #contato {
@@ -116,8 +115,8 @@ h2 {
 .formulario {
     background-color: #fad797;
     padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(246, 173, 26, 0.693);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(246, 173, 26, 0.693);
     font-weight: bold;
 }
 
@@ -156,7 +155,7 @@ h2 {
 }
 
 .alto-contraste{
-    background-color: var(--alto-contraste-link);
+    background-color: var(--alto-contraste-fundo);
     color: var(--alto-contraste-texto);
 }
 
