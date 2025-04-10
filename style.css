@@ -2,18 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #f6bd03;
-    --alto-contraste-fundo: #21211db9;
-    --alto-contraste-texto: #ffffff36;
-    --alto-contraste-link: #f6d935;
+    --laranja-claro: #f7dc0f;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: hsl(51, 78%, 67%);
+    --alto-contraste-link: #dbf20ef4;
 }
+
 body {
     font-size: 1rem;
     font-family: 'Montserrat';
 }
 
 header {
-    background-color: #f4be0ef3;
+    background-color: #f9c908;
 }
 
 
@@ -23,24 +24,24 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: #f29e0d;
     font-weight: 600;
 }
 
 .inicio-fundo {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/Tipojem.png');
     background-size: cover;
     background-position: right;
     border-radius: 80px;
     width: 100%;
     height: 606px;
     padding: 40px;
-    margin: 10px; auto;
+    margin: 0 auto;
 }
 
 .img-inicio {
     position: absolute;
-    right: 3rem;
+    right: 10px;
     top: 18rem;
     width: 45rem;
     height: auto;
@@ -56,7 +57,7 @@ section {
 
 
 .botao-inicio {
-    background-color: var(--amarelo-claro);
+    background-color: var(--laranja-claro);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -66,7 +67,7 @@ section {
 }
 
 .display-4 {
-    text-shadow: -5px 5px var(--amarelo-claro);
+    text-shadow: -5px 5px var(--laranja-claro);
 }
 
 
@@ -80,7 +81,7 @@ section {
     background-size: 190px 190px;
 }
 
-#Jorge&Mateus.container {
+#Jorge&Mateus .container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,37 +98,38 @@ h2 {
 }
 
 #galeria {
-    background-color: #f1d131;
+    background-color: #e8e04f;
 
 }
 
 .fundo-galeria {
     background: url('img/flor-bottom-direita.png') bottom right no-repeat;
-    background-size: 190px 190px;
+    background-size: 180px 180px;
 }
 
 #contato {
     background-image: url('img/4965007.jpg');
     background-size: cover;
     padding: 4rem 0;
+
 }
 
 .formulario {
-    background-color: #fad797;
-    padding: 2rem;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(246, 173, 26, 0.693);
+    background-color: #6057de;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(156, 88, 239, 0.856);
     font-weight: bold;
 }
 
 .formulario button {
-    background-color: rgba(246, 173, 26, 0.693);
+    background-color: #2d292f;
     border: none;
     font-weight: bold;
 }
 
 .form-control {
-    background-color: #f1d756;
+    background-color: #F1EDEF;
 }
 .menu-acessibilidade{
     position: fixed;
