@@ -98,7 +98,7 @@ h2 {
 }
 
 #galeria {
-    background-color: #e8e04f;
+    background-color: #f7ec129c;
 
 }
 
@@ -115,10 +115,10 @@ h2 {
 }
 
 .formulario {
-    background-color: #6057de;
+    background-color: #a8a3f4bb;
     padding: 3rem;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(156, 88, 239, 0.856);
+    box-shadow: 0 0 10px rgba(110, 7, 236, 0.924);
     font-weight: bold;
 }
 
@@ -129,7 +129,7 @@ h2 {
 }
 
 .form-control {
-    background-color: #F1EDEF;
+    background-color: #f2e207;
 }
 .menu-acessibilidade{
     position: fixed;
